@@ -1,1 +1,40 @@
 // Navigation Styles here
+.navbox {
+    .flextwo(space-between);
+    margin-top: 12px;
+
+    @media @phone {
+        .flexone(column, center);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    padding: 30px;
+}
+
+.navigation {
+    margin-top: 15px;
+    //     border-bottom: 1.5px dashed @silver;
+}
+
+.welcome {
+    margin-top: 20px;
+    border-bottom: 1.5px dashed @silver;
+
+    @media @phone {
+        margin-left: 20px;
+    }
+}
+
+.imagebox {
+    border-top: 1.5px dashed @silver;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    @media @phone {
+        margin-left: 20px;
+    }
+}

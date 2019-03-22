@@ -1,1 +1,17 @@
 // Mixins in here
+@phone: (max-width:450px);
+
+//first mixin
+
+.flexone(@direction;
+
+@align) {
+    display: flex;
+    flex-direction: @direction ;
+    align-items: @align;
+}
+
+.flextwo(@justify) {
+    display: flex;
+    justify-content: @justify;
+}
